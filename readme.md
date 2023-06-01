@@ -1,5 +1,5 @@
 # Autores (colaboradores)
-## Pablo Vergel : Kerolink (owner)
+## Pablo Vergel Celis: Kerolink (owner)
 ## Monserrat Cabrera Sanchez : Mon-MCS
 ## Miguel Benitez Montesinos : miguelbemon
 # Resumen del contenido del repositorio
