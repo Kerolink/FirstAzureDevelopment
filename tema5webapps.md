@@ -69,7 +69,7 @@ En resumen, un plan de App Service es el entorno de hospedaje y los recursos aso
 
 # Preguntas de la Batería
 
-## QUESTION 3 Pag 23
+# QUESTION 3 Pag 23
 HOTSPOT
 You are implementing a software as a service (SaaS) ASP.NET Core web service that will run as an Azure Web App. The web service will use an on-premises SQL Server database for storage. The web service also includes a WebJob that processes data updates. Four customers will use the web service.
 Each instance of the WebJob processes data for a single customer and must run as a singleton
@@ -81,7 +81,7 @@ You need to configure the App Service plan for the Web App.
 How should you configure the App Service plan? To answer, select the appropriate settings in the answer
 area.
 
-### Respuesta
+## Respuesta
 
 Each deployment must be tested by using deployment slots prior to serving production data
 
