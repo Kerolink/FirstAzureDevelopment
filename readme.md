@@ -10,12 +10,12 @@ Cada archivo md contiene una explicación de qué es el servicio en cuestión y 
 
 # 
 
-| Número | Tema         | Autor          |
-| ------ | ------------ | -------------- |
-| 1      | CDN          | Pablo          |
-| 2      | Az Functions | Monse          |
-| 3      | Auth         | Miguel Benitez |
-| 4      | Blob         | Miguel Benitez |
-| 5      | Web Apps     | Pablo          |
-| 6      | Insights     | Monse          |
+| Archivo          | Tema         | Autor          |
+| ---------------- | ------------ | -------------- |
+| tema1cdn.md      | Azure CDN (Content Delivery Network)          | Pablo          |
+| tema2azfunctions.md | Implement Azure Functions | Monse          |
+| tema3auth.md     | Implement user authentication and authorization         | Miguel Benitez |
+| tema4blob.md     | Develop solutions that use blob storage        | Miguel Benitez |
+| tema5webapps.md  | Implement Azure App Service Web Apps    | Pablo          |
+| tema6insights.md | Troubleshoot solutions by using Application Insights     | Monse          |
 
