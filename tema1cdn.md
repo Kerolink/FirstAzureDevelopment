@@ -82,3 +82,54 @@ Recuerda que la configuración exacta y los pasos pueden variar dependiendo de l
 
 # Preguntas de la Batería
 
+# Question 6 pag 88
+
+pdf correcto
+
+Step 1: A user requests the image.. A user requests a file (also called an asset) by using a URL with a special domain name, such as .azureedge.net. This name can be an endpoint hostname or a custom domain. The DNS routes the request to the best performing POP location, which is usually the POP that is geographically closest to the user. 
+
+Step 2: If no edge servers in the POP have the.. If no edge servers in the POP have the file in their cache, the POP requests the file from the origin server. The origin server can be an Azure Web App, Azure Cloud Service, Azure Storage account, or any publicly accessible web server. 
+
+Step 3: The origin server returns the.. The origin server returns the file to an edge server in the POP. An edge server in the POP caches the file and returns the file to the original requestor (Alice). The file remains cached on the edge server in the POP until the time-to-live (TTL) specified by its HTTP headers expires. If the origin server didn't specify a TTL, the default TTL is seven days. 
+
+Step 4: Subsequent requests for.. Additional users can then request the same file by using the same URL that the original user used, and can also be directed to the same POP. If the TTL for the file hasn't expired, the POP edge server returns the file directly from the cache. This process results in a faster, more responsive user experience.
+
+
+
+# Question 8 Pag 199
+
+pdf correcto
+
+You are developing an Azure App Service hosted ASP.NET Core web app to deliver video-on-demand
+streaming media. You enable an Azure Content Delivery Network (CDN) Standard for the web endpoint.
+Customer videos are downloaded from the web app by using the following example URL: http://
+www.contoso.com/content.mp4?quality=1
+All media content must expire from the cache after one hour. Customer videos with varying quality must be
+delivered to the closest regional point of presence (POP) node.
+You need to configure Azure CDN caching rules.
+Which options should you use? To answer, select the appropriate options in the answer area.
+
+**box 1: Override**
+
+we want to force it to use our defined caching duration,
+Bypass cache just doesn't cache
+and set if missing will only use our defined caching duration if the webapp doesn't specify one
+
+**box 2: 1 hour**
+
+Está especificado en el texto no tiene perdida
+
+**box 3: Cache every unique url**
+
+each unique url is a different video file
+blah.mp4?quality=3
+is different to
+blah.mp4?quality=1
+so you will want to cache them seperately
+
+
+
+so the cache sits between your web app and the user 
+and when your user requests a video, the user requests that video from the cache, if your cache doesn't have the video it requests it from your web app
+your web app sends the video to the cache and the cache sends it to the user
+now if the user requests the video again, the cache will have it stored and can send it directly to the user without querying your app
