@@ -101,9 +101,9 @@ A. Durable Functions proporciona *temporizadores durables* para usarlos en funci
 
 *Hot Area:*
 
-![image-20230602131339104](C:\Users\monts\AppData\Roaming\Typora\typora-user-images\image-20230602131339104.png)
+![Opciones](https://github.com/Kerolink/FirstAzureDevelopment.git/Imágenes/checkUserContent.png)
 
 Los bindings especifican cómo se acceden y manipulan los datos de entrada y salida en la función "CheckUserContent". Proporcionan una forma conveniente de interactuar con los blobs almacenados en Azure Blob Storage. Por ello se seleccionan las siguientes opciones:
 
-![image-20230602132043464](C:\Users\monts\AppData\Roaming\Typora\typora-user-images\image-20230602132043464.png)
+![Opciones escpgidas](https://github.com/Kerolink/FirstAzureDevelopment.git/Imágenes/opciones_checkUserContent.png)
 
