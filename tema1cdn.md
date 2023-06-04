@@ -133,3 +133,20 @@ so the cache sits between your web app and the user
 and when your user requests a video, the user requests that video from the cache, if your cache doesn't have the video it requests it from your web app
 your web app sends the video to the cache and the cache sends it to the user
 now if the user requests the video again, the cache will have it stored and can send it directly to the user without querying your app
+
+# Question 7 Pag 197
+
+Azure Front Door is a modern content delivery network (CDN), with dynamic site acceleration and load balancing capabilities.
+
+[Improve performance by compressing files in Azure Front Door](https://learn.microsoft.com/en-us/azure/frontdoor/standard-premium/how-to-compression)
+
+This question is bad
+The MIME type application/xml does seem to be supported
+so that should be a yes
+I can't see how purging the edge nodes is going to help
+and Brotli compression is a supported compression type
+so the third should be yes
+however I am not even sure any of this is relevant because it is talking about inbound XML rather than outbound
+so caching and its compression is probably not even relevant
+
+**Yes No Yes**
