@@ -101,9 +101,9 @@ A. Durable Functions proporciona *temporizadores durables* para usarlos en funci
 
 *Hot Area:*
 
-![Opciones](https://github.com/Kerolink/FirstAzureDevelopment/blob/93df3aaa10623e704b65262190fa10683e9c5fbf/Imagenes/checkUserContent.png)
+![Opciones](Imagenes/checkUserContent.png)
 
 Los bindings especifican cómo se acceden y manipulan los datos de entrada y salida en la función "CheckUserContent". Proporcionan una forma conveniente de interactuar con los blobs almacenados en Azure Blob Storage. Por ello se seleccionan las siguientes opciones:
 
-![Opciones escpgidas](https://github.com/Kerolink/FirstAzureDevelopment/blob/93df3aaa10623e704b65262190fa10683e9c5fbf/Imagenes/opciones_checkUserContent.png)
+![Opciones escogidas](Imagenes/opciones_checkUserContent.png)
 
