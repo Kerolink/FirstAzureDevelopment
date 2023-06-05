@@ -2,7 +2,7 @@
 
   # ¿Qué es la Plataforma de Identidad de Microsoft y cómo se utiliza para la autenticación de usuarios?
   
-            ```
+            
             La Plataforma de Identidad de Microsoft, también conocida como Azure Active Directory (Azure AD), es un servicio en la nube que proporciona una solución de administración de identidad y acceso para aplicaciones, servicios y recursos en el ecosistema de Microsoft. Es utilizado por organizaciones para autenticar y autorizar a los usuarios que acceden a sus aplicaciones y servicios.
 
             Azure AD permite a las organizaciones centralizar la administración de identidades y proporciona capacidades de inicio de sesión único (SSO) para que los usuarios puedan acceder a múltiples aplicaciones y servicios con una sola credencial. Al utilizar Azure AD, los usuarios pueden autenticarse en sus cuentas utilizando credenciales de Microsoft, como una cuenta de correo electrónico y una contraseña, o mediante cuentas de redes sociales y otros proveedores de identidad compatibles.
@@ -18,12 +18,12 @@
             Azure AD también proporciona capacidades de administración de acceso, lo que significa que los administradores pueden controlar los permisos y el acceso de los usuarios a aplicaciones y servicios específicos. Esto se puede lograr mediante la configuración de directivas de acceso, grupos de usuarios y roles personalizados.
 
             En resumen, la Plataforma de Identidad de Microsoft (Azure AD) es una solución de administración de identidad y acceso en la nube que permite a las organizaciones autenticar y autorizar a los usuarios que acceden a sus aplicaciones y servicios, proporcionando un inicio de sesión único y opciones de autenticación avanzadas como la autenticación multifactor. 
-            ```
+          
 
 
   # ¿Cuál es el flujo de autenticación más común al utilizar la Plataforma de Identidad de Microsoft?
  
-            ```
+            
             El flujo de autenticación más común al utilizar la Plataforma de Identidad de Microsoft (Azure AD) es el flujo de autenticación basado en el protocolo OAuth 2.0 y OpenID Connect. A continuación, se describe el flujo básico de autenticación:
 
             1. El usuario accede a una aplicación o servicio que requiere autenticación utilizando Azure AD.
@@ -43,11 +43,11 @@
             8. La aplicación permite el acceso al usuario y establece una sesión para que pueda interactuar con los recursos y datos protegidos.
 
             Es importante tener en cuenta que este es un flujo básico y pueden haber variaciones según la configuración específica de la aplicación y los requisitos de autenticación. Además, Azure AD también admite otros flujos y protocolos de autenticación, como el flujo de autorización del código de autorización, que permite obtener un token de acceso en nombre del usuario sin revelar sus credenciales a la aplicación.
-            ```
+            
 
   # ¿Cómo se obtienen y se utilizan los tokens de acceso para autorizar solicitudes a recursos protegidos?
 
-            ```
+            
             Para obtener y utilizar tokens de acceso para autorizar solicitudes a recursos protegidos al utilizar la
             Plataforma de Identidad de Microsoft (Azure AD), se siguen los siguientes pasos:
 
@@ -66,7 +66,7 @@
             Es importante tener en cuenta que los tokens de acceso tienen una duración limitada y pueden tener un alcance específico definido por los permisos otorgados. Si el token expira o los permisos no son suficientes, el cliente debe solicitar un nuevo token de acceso actualizado.
 
             Este es un flujo generalizado y simplificado. La implementación exacta puede variar según el protocolo de autenticación utilizado (por ejemplo, OAuth 2.0, OpenID Connect) y las configuraciones específicas de Azure AD y la aplicación cliente.
-            ```
+            
 
 ## Preguntas AZ-204
 

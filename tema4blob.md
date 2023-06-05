@@ -2,7 +2,7 @@
 
   # ¿Cuál es la diferencia entre Azure Container Registry, Azure Container Instances y Azure Container Apps?	
 
-            ```
+            
             Azure Container Registry (ACR), Azure Container Instances (ACI) y Azure Container Apps son servicios relacionados pero tienen diferentes funcionalidades y casos de uso.
 
             Azure Container Registry (ACR): Es un servicio de registro de contenedores de Azure que permite almacenar y administrar imágenes de contenedores privadas de forma segura. ACR proporciona un lugar centralizado para almacenar y administrar imágenes de contenedores que se utilizan para implementar aplicaciones en Azure. Es similar a un repositorio de imágenes de Docker. ACR permite la implementación de imágenes de contenedores en otros servicios como Azure Kubernetes Service (AKS) o Azure Container Instances (ACI).
@@ -12,11 +12,11 @@
             Azure Container Apps: Es un servicio más reciente que se encuentra actualmente en versión preliminar (preview). Azure Container Apps combina las características de ACR y ACI para simplificar la implementación y administración de aplicaciones en contenedores en Azure. Permite definir y ejecutar aplicaciones completas en contenedores, incluyendo sus dependencias, configuraciones y escala, utilizando un modelo declarativo. Azure Container Apps ofrece una abstracción más alta que ACI y proporciona una forma más sencilla de desplegar y escalar aplicaciones en contenedores sin la necesidad de preocuparse por la infraestructura subyacente.
 
             En resumen, Azure Container Registry se utiliza para almacenar y administrar imágenes de contenedores, Azure Container Instances para ejecutar contenedores de forma rápida y sencilla, y Azure Container Apps para definir y desplegar aplicaciones completas en contenedores de manera simplificada.
-            ```
+            
 
   # ¿Cómo se utiliza Azure Container Registry para almacenar y gestionar imágenes de contenedores?
             
-            ```
+            
             Para utilizar Azure Container Registry (ACR) y almacenar y gestionar imágenes de contenedores, puedes seguir los siguientes pasos:
 
             1. Crear un Azure Container Registry: Inicia sesión en el portal de Azure y crea un nuevo Azure Container Registry. Proporciona un nombre único para el registro y selecciona la suscripción, grupo de recursos y la ubicación.
@@ -32,11 +32,11 @@
             6. Gestionar las imágenes en el registro: Desde el portal de Azure o utilizando la interfaz de línea de comandos de Azure, puedes administrar las imágenes almacenadas en ACR. Esto incluye la gestión de etiquetas, la configuración de políticas de retención, la eliminación de imágenes antiguas y la administración de permisos de acceso.
 
             Una vez que hayas almacenado las imágenes en Azure Container Registry, podrás utilizarlas para implementar aplicaciones en otros servicios de Azure, como Azure Kubernetes Service (AKS) o Azure Container Instances (ACI), o compartir las imágenes con otros miembros de tu equipo. ACR proporciona una solución segura y confiable para el almacenamiento y la administración de imágenes de contenedores en Azure.
-            ```
+            
 
   # ¿Cuál es el propósito y la ventaja de utilizar Azure Container Instances para ejecutar contenedores sin necesidad de administrar una infraestructura subyacente?	
 
-            ```
+            
             El propósito principal de Azure Container Instances (ACI) es permitirte ejecutar contenedores de forma rápida y sencilla sin la necesidad de administrar una infraestructura subyacente. Algunas de las ventajas de utilizar ACI son las siguientes:
 
             1. Simplificación de la administración: ACI se encarga de la administración de la infraestructura subyacente, lo que te permite centrarte en tus aplicaciones y cargas de trabajo sin preocuparte por tareas de administración, como aprovisionamiento, escalado o configuración de servidores.
@@ -50,7 +50,7 @@
             5. Integración con otros servicios de Azure: ACI se integra de manera nativa con otros servicios de Azure, como Azure Virtual Network, Azure Container Registry y Azure Functions, lo que te permite construir aplicaciones y sistemas completos utilizando una combinación de servicios administrados de Azure.
 
             En resumen, la ventaja principal de utilizar Azure Container Instances es que te permite ejecutar contenedores sin tener que preocuparte por la administración de la infraestructura subyacente. Esto simplifica el proceso de implementación, reduce el tiempo de inactividad y te permite centrarte en el desarrollo de tus aplicaciones y servicios. ACI es especialmente útil para cargas de trabajo puntuales, pruebas rápidas, tareas de procesamiento por lotes y microservicios sencillos que no requieren escalabilidad automática.
-            ```
+            
 
 ## Preguntas AZ-204
 
@@ -118,4 +118,3 @@
 
             -Referencia:
             https://docs.microsoft.com/en-us/azure/key-vault/general/soft-delete-overview
-            
